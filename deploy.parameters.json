@@ -1,5 +1,24 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
-    "parameters": {}
+    "parameters": {
+        "adminUsername": {
+            "value": "azureuser"
+        },
+        "adminPassword": {
+            "value": "upvm41MCE*Ad"
+        },
+        "dnsLabelPrefix": {
+            "value": "mydnslabel"
+        },
+        "vmName": {
+            "value": "labvmipl2gq3kpxaa3og.westus2.cloudapp.azure.com"
+        },
+        "vmSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "location": {
+            "value": "West US 2"
+        }
+    }
 }
